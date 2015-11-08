@@ -94,14 +94,14 @@
 
 		<ul class="pager">
 		  {% if page.previous %}
-		  <li class="previous"><a href="{{ site.BASE_PATH }}{{ page.previous.url }}" title="{{ page.previous.title }}">&larr; 上一页</a></li>
+		  <li class="previous"><a href="{{ site.BASE_PATH }}{{ page.previous.url }}" title="{{ page.previous.title }}">&larr; 上篇</a></li>
 		  {% else %}
-		  <li class="previous disabled"><a>&larr; 上一页</a></li>
+		  <li class="previous disabled"><a>&larr; 上篇</a></li>
 		  {% endif %}
 		  {% if page.next %}
-		  <li class="next"><a href="{{ site.BASE_PATH }}{{ page.next.url }}" title="{{ page.next.title }}">下一页 &rarr;</a></li>
+		  <li class="next"><a href="{{ site.BASE_PATH }}{{ page.next.url }}" title="{{ page.next.title }}">下篇 &rarr;</a></li>
 		  {% else %}
-			<li class="next disabled"><a>下一页 &rarr;</a>
+			<li class="next disabled"><a>下篇 &rarr;</a>
 		  {% endif %}
 		</ul>
 
