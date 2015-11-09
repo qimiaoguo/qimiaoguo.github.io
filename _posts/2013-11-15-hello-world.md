@@ -12,3 +12,9 @@ comments: true
 ### dbyll is on GitHub
 
 <a class="btn btn-default" href="https://github.com/dbtek/dbyll">Grab your copy now!</a>
+$$E=mc^2$$ is a inline formula
+$$ 
+\begin{aligned} \dot{x} &= \sigma(y-x) \\ 
+\dot{y} &= \rho x - y - xz \\ 
+\dot{z} &= -\beta z + xy \end{aligned} 
+$$
