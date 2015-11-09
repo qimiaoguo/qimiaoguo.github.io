@@ -57,13 +57,13 @@ public:
 ##第二题[最长有效匹配括号子串][2]
 
 >Given a string containing just the characters '(' and ')', find the length of the longest valid (well-formed) parentheses substring.
-
+>
 >For "(()", the longest valid parentheses substring is "()", which has length = 2.
-
+>
 >Another example is ")()())", where the longest valid parentheses substring is "()()", which has length = 4.
 
 
-**解答**
+**解答：**
 从右往左，一维数组动态规划，dp[i]代表当前点(必须包含当前点)到最后一点的最长匹配
 {% highlight cpp %}
 class Solution {
