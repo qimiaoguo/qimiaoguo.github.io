@@ -2,6 +2,7 @@
 layout: post
 title: Hello World!
 fullview: true
+comments: true
 ---
 
 **dbyll** is minimalist, stylish theme for jekyll. Supports gravatar, account links (github, twitter, e-mail, pinterest, résume file) and a bio.  
