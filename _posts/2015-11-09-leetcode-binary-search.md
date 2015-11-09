@@ -23,7 +23,7 @@ comments: true
       ["4", "13", "5", "/", "+"] -> (4 + (13 / 5)) -> 6
 
 **解答：**
-{% highlight cpp %}
+```ruby
 class Solution {
 public:
     int evalRPN(vector<string>& tokens) {
@@ -52,6 +52,6 @@ public:
         return atoi(s.top().c_str());
     }
 };
-{% endhighlight %}
+```
 
 [1]:https://leetcode.com/problems/evaluate-reverse-polish-notation/
