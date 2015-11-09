@@ -23,7 +23,7 @@ comments: true
       ["4", "13", "5", "/", "+"] -> (4 + (13 / 5)) -> 6
 
 **解答：**
-```CPP
+```c
 class Solution {
 public:
     int evalRPN(vector<string>& tokens) {
