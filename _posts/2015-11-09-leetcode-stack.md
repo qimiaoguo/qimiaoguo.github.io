@@ -1,9 +1,9 @@
 ---
 layout: post
-title: LeetCode binary search problem
+title: LeetCode stack problem
 categories: [Code]
 tags: [LeetCode]
-description: LeetCode 二分搜索问题
+description: LeetCode 堆栈问题
 comments: true
 ---
 * TOC
